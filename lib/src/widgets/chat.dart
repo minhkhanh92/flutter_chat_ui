@@ -100,7 +100,7 @@ class Chat extends StatefulWidget {
       audioMessageBuilder;
 
   /// See [Message.avatarBuilder].
-  final Widget Function(String userId)? avatarBuilder;
+  final Widget Function(types.User)? avatarBuilder;
 
   /// See [Message.bubbleBuilder].
   final Widget Function(
